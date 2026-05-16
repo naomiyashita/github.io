@@ -13,19 +13,11 @@ permalink: /cv/
 
 ## Publications
 
+## Publications
+
 <div class="publication-list">
 {% for pub in site.data.publications %}
-  <article class="publication-item">
-    <p>{{ pub.display_ja }}</p>
-
-    {% if pub.doi %}
-      <p><a href="{{ pub.doi }}">DOI</a></p>
-    {% endif %}
-
-    <button class="cite-button" type="button" data-citation="{{ pub.citation_ja | escape }}">
-      引用情報
-    </button>
-  </article>
+  {% include publication_item.html pub=pub lang="ja" %}
 {% endfor %}
 </div>
 
@@ -34,14 +26,14 @@ permalink: /cv/
     <button class="dialog-close" type="submit" aria-label="Close">×</button>
   </form>
 
-  <h2>Cite this work</h2>
+  <h2>Cite this article</h2>
 
   <p class="citation-style-label">APA 7th</p>
 
-  <textarea id="citation-text" class="citation-text" readonly></textarea>
+  <div id="citation-preview" class="citation-preview"></div>
 
   <button id="copy-citation-button" class="copy-citation-button" type="button">
-    Copy citation
+    クリップボードにコピーする
   </button>
 </dialog>
 
