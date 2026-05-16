@@ -15,6 +15,7 @@ permalink: /links/
       <span class="profile-icon">iD</span>
       <span>ORCID</span>
       <span class="profile-status">準備中</span>
+    </span>
   </li>
 
   <li>
