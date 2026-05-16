@@ -1,17 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
   const dialog = document.getElementById("cite-dialog");
-  const citationText = document.getElementById("citation-text");
+  const citationPreview = document.getElementById("citation-preview");
   const copyButton = document.getElementById("copy-citation-button");
-  const citeButtons = document.querySelectorAll(".cite-button");
+  const citationLinks = document.querySelectorAll(".citation-link");
 
-  if (!dialog || !citationText || !copyButton || citeButtons.length === 0) {
+  let currentCitationHTML = "";
+  let currentCitationPlain = "";
+
+  if (!dialog || !citationPreview || !copyButton || citationLinks.length === 0) {
     return;
   }
 
-  citeButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      citationText.value = button.dataset.citation || "";
-      copyButton.textContent = "Copy citation";
+  citationLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      currentCitationHTML = link.dataset.citationHtml || "";
+      currentCitationPlain = link.dataset.citationText || "";
+
+      citationPreview.innerHTML = currentCitationHTML;
+
+      copyButton.textContent = copyButton.textContent.includes("Copy")
+        ? "Copy citation"
+        : "引用情報をコピー";
 
       if (typeof dialog.showModal === "function") {
         dialog.showModal();
@@ -22,15 +31,32 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   copyButton.addEventListener("click", async () => {
-    const text = citationText.value;
-
     try {
-      await navigator.clipboard.writeText(text);
-      copyButton.textContent = "Copied!";
+      if (navigator.clipboard && window.ClipboardItem && currentCitationHTML) {
+        await navigator.clipboard.write([
+          new ClipboardItem({
+            "text/html": new Blob([currentCitationHTML], { type: "text/html" }),
+            "text/plain": new Blob([currentCitationPlain], { type: "text/plain" })
+          })
+        ]);
+      } else {
+        await navigator.clipboard.writeText(currentCitationPlain);
+      }
+
+      copyButton.textContent = copyButton.textContent.includes("Copy")
+        ? "Copied!"
+        : "コピーしました😀";
     } catch (error) {
-      citationText.select();
+      const temporaryTextarea = document.createElement("textarea");
+      temporaryTextarea.value = currentCitationPlain;
+      document.body.appendChild(temporaryTextarea);
+      temporaryTextarea.select();
       document.execCommand("copy");
-      copyButton.textContent = "Copied!";
+      document.body.removeChild(temporaryTextarea);
+
+      copyButton.textContent = copyButton.textContent.includes("Copy")
+        ? "Copied!"
+        : "コピーしました😀";
     }
   });
 });
