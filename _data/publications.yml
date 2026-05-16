@@ -1,16 +1,21 @@
-- id: sample-article
+- id: MGBulletin31-2026-PMreview
   year: 2026
-  doi: "https://doi.org/xx.xxxx/xxxxx"
+
+  authors_ja: "宮下 直・金城 光"
+  authors_en: "Miyashita, N., & Kinjo, H."
   
-  title_ja: "論文タイトルの日本語表記"
-  title_en: "Title of the article"
+  title_ja: "展望的記憶の意図の想起に関連する研究の現状と展望"
+  title_en: "Present status and future perspectives of the studies on intention retrieval in prospective memory"
 
-  display_ja: >-
-    宮下・著者（2026）「論文タイトルの日本語表記」『Journal Name』12(3), 123–145.
-  display_en: >-
-    Miyashita, N., & Author, A. (2026). Title of the article. Journal Name, 12(3), 123–145.
+  journal_ja: "明治学院大学心理学研究科紀要"
+  journal_en: "Bulletin of the Graduate School of Psychology, Meiji Gakuin University"
 
-  citation_ja: >-
-    宮下 直・著者 名. (2026). 論文タイトルの日本語表記. Journal Name, 12(3), 123–145. https://doi.org/xx.xxxx/xxxxx
-  citation_en: >-
-    Miyashita, N., & Author, A. (2026). Title of the article. Journal Name, 12(3), 123–145. https://doi.org/xx.xxxx/xxxxx
+  volume: "31"
+  pages: "63–74"
+
+  doi: "https://doi.org/10.24620/0002001060"
+
+  citation_ja_html_override: >-
+    宮下 直・金城 光（2026）．展望的記憶の意図の想起に関連する研究の現状と展望　明治学院大学心理学研究科紀要，<em>31</em>, 63–74. https://doi.org/10.24620/0002001060
+  citation_ja_plain_override: >-
+    宮下 直・金城 光（2026）．展望的記憶の意図の想起に関連する研究の現状と展望　明治学院大学心理学研究科紀要，31, 63–74. https://doi.org/10.24620/0002001060
