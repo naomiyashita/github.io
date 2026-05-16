@@ -14,10 +14,17 @@
     
       <div class="header-right">
         <nav class="site-nav">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/cv/' | relative_url }}">CV</a>
-          <a href="{{ '/contact/' | relative_url }}">Contact</a>
-          <a href="{{ '/links/' | relative_url }}">Links</a>
+          {% if page.lang == "en" %}
+            <a href="{{ '/en/' | relative_url }}">Home</a>
+            <a href="{{ '/en/' | relative_url }}">CV</a>
+            <a href="{{ '/en/' | relative_url }}">Contact</a>
+            <a href="{{ '/en/' | relative_url }}">Links</a>
+          {% else %}
+            <a href="{{ '/' | relative_url }}">ホーム</a>
+            <a href="{{ '/cv/' | relative_url }}">業績</a>
+            <a href="{{ '/contact/' | relative_url }}">連絡先</a>
+            <a href="{{ '/links/' | relative_url }}">リンク</a>
+          {% endif %}
         </nav>
     
         <div class="language-switcher">
