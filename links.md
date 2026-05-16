@@ -38,7 +38,7 @@ permalink: /links/
   </li>
 
   <li>
-    <a href="https://qiita.com/nao_qiitauser">
+    <a href="https://qiita.com/naomiyashita">
       <span class="profile-icon">Q</span>
       <span>Qiita</span>
     </a>
