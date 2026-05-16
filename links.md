@@ -25,6 +25,15 @@ permalink: /links/
       <span class="profile-status">準備中</span>
     </span>
   </li>
+
+  <li>
+    <span class="profile-link-disabled">
+      <span class="profile-icon">G</span>
+      <span>Google Scholar</span>
+      <span class="profile-status">準備中</span>
+    </span>
+  </li>
+  
 </ul>
 
 ## Code / Projects
