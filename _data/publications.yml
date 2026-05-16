@@ -1,0 +1,16 @@
+- id: sample-article
+  year: 2026
+  doi: "https://doi.org/xx.xxxx/xxxxx"
+  
+  title_ja: "論文タイトルの日本語表記"
+  title_en: "Title of the article"
+
+  display_ja: >-
+    宮下・著者（2026）「論文タイトルの日本語表記」『Journal Name』12(3), 123–145.
+  display_en: >-
+    Miyashita, N., & Author, A. (2026). Title of the article. Journal Name, 12(3), 123–145.
+
+  citation_ja: >-
+    宮下 直・著者 名. (2026). 論文タイトルの日本語表記. Journal Name, 12(3), 123–145. https://doi.org/xx.xxxx/xxxxx
+  citation_en: >-
+    Miyashita, N., & Author, A. (2026). Title of the article. Journal Name, 12(3), 123–145. https://doi.org/xx.xxxx/xxxxx
