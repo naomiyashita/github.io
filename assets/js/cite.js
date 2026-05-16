@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       copyButton.textContent = copyButton.textContent.includes("Copy")
         ? "Copy citation"
-        : "引用情報をコピー";
+        : "クリップボードにコピーする";
 
       if (typeof dialog.showModal === "function") {
         dialog.showModal();
