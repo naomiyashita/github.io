@@ -20,7 +20,7 @@
 {% endcapture %}
 
 {% capture generated_plain %}
-{{ authors }} ({{ pub.year }}). {{ title }}. {{ journal }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.
+{{ authors | strip_html }} ({{ pub.year }}). {{ title | strip_html }}. {{ journal | strip_html }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.
 {% endcapture %}
 
 {% capture generated_html_with_doi %}
