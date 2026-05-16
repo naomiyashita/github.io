@@ -302,3 +302,28 @@ a.publication-action:hover {
     font-size: 1.5rem;
   }
 }
+
+.page-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  padding: 14px 0 20px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+.page-toc strong {
+  margin-right: 6px;
+  color: var(--text);
+}
+
+.page-toc a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.page-toc a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
