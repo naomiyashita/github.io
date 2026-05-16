@@ -5,15 +5,15 @@ lang: ja
 permalink: /cv/
 ---
 
-# CV
+# 業績
 <nav class="page-toc" aria-label="CV contents">
-  <strong>Contents.</strong>
+  <strong>目次．</strong>
   <a href="#affiliation">所属</a>
   <a href="#membership">学会</a>
   <a href="#publications">原著論文</a>
   <a href="#presentations">発表</a>
   <a href="#awards-grants">受賞歴・競争的研究資金</a>
-  <a href="#skills">スキル</a>
+  <a href="#skills">スキル等</a>
 </nav>
 
 <h2 id="affiliation">所属</h2>
@@ -63,7 +63,7 @@ permalink: /cv/
 
 - 2025年8月　白金心理学会研究奨励費獲得　白金心理学会．（採択題目：展望的記憶能力における個人差要因の検討――意図の想起過程，注意制御および意思決定の観点から――）
 
-<h2 id="skills">スキル</h2>
+<h2 id="skills">スキル等</h2>
 
 - R
 - PsychoPy
