@@ -4,7 +4,7 @@ title: Home
 lang: ja
 ---
 
-# Welcome
+# Welcome!
 
 <p class="lead">
 宮下直です。認知心理学を専攻している大学院生です。
