@@ -468,3 +468,20 @@ body.modal-open {
   font-size: 0.8rem;
   color: var(--muted);
 }
+
+.profile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 12px 0 24px;
+}
+
+.profile-links li {
+  margin: 0;
+}
+
+.profile-links a,
+.profile-link-disabled {
+  min-height: 28px;
+}
