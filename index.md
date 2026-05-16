@@ -50,18 +50,18 @@ lang: ja
   </li>
 </ul>
 
-## News
+## ニュース
 
 <ul class="news-list">
   <li><span class="news-date">2026/05/16</span>サイトを公開しました。</li>
 </ul>
 
-## Research Interests
+## 研究領域
 
 - 展望的記憶 (prospective memory)
 - メタ記憶 (metamemory)
 - 注意 (attention)
 
-## Contact
+## 連絡先
 
 お問い合わせは Contact ページをご覧ください。
