@@ -22,12 +22,25 @@ document.addEventListener("DOMContentLoaded", () => {
         ? "Copy citation"
         : "クリップボードにコピーする";
 
+      document.documentElement.classList.add("modal-open");
+      document.body.classList.add("modal-open");
+
       if (typeof dialog.showModal === "function") {
         dialog.showModal();
       } else {
         dialog.setAttribute("open", "");
       }
     });
+  });
+
+  dialog.addEventListener("close", () => {
+    document.documentElement.classList.remove("modal-open");
+    document.body.classList.remove("modal-open");
+  });
+
+  dialog.addEventListener("cancel", () => {
+    document.documentElement.classList.remove("modal-open");
+    document.body.classList.remove("modal-open");
   });
 
   copyButton.addEventListener("click", async () => {
