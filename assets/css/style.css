@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.site-header {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
+  margin-bottom: 48px;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+
+.site-title {
+  font-weight: 600;
+  color: #111;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.95rem;
+}
+
+.site-nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 48px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 8px;
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.news-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.news-list li {
+  margin-bottom: 12px;
+}
+
+.news-date {
+  color: #666;
+  font-size: 0.95rem;
+  margin-right: 8px;
+}
+
+.site-footer {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 64px;
+  padding: 24px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
