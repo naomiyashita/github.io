@@ -5,6 +5,6 @@ lang: ja
 permalink: /contact/
 ---
 
-# Contact Form
+# 連絡先
 
 メールフォームは準備中です。
