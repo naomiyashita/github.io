@@ -9,13 +9,41 @@ permalink: /links/
 
 ## Academic Profiles
 
-- ORCID: 準備中
-- Researchmap: 準備中
-- Google Scholar: 準備中
+<ul class="profile-links">
+  <li>
+    <span class="profile-link-disabled">
+      <span class="profile-icon">iD</span>
+      <span>ORCID</span>
+      <span class="profile-status">準備中</span>
+  </li>
+
+  <li>
+    <span class="profile-link-disabled">
+      <span class="profile-icon">R</span>
+      <span>Researchmap</span>
+      <span class="profile-status">準備中</span>
+    </span>
+  </li>
+</ul>
 
 ## Code / Projects
 
-- GitHub: 準備中
+<ul class="profile-links">
+  <li>
+    <a href="https://github.com/naomiyashita">
+      <span class="profile-icon">GH</span>
+      <span>GitHub</span>
+    </a>
+  </li>
+
+  <li>
+    <span class="profile-link-disabled">
+      <span class="profile-icon">Q</span>
+      <span>Qiita</span>
+      <span class="profile-status">準備中</span>
+    </span>
+  </li> 
+</ul>
 
 ## Affiliation
 
