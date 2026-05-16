@@ -4,23 +4,23 @@ title: Home
 lang: ja
 ---
 
-# Your Name
+# Welcome
 
 <p class="lead">
-大学院生。認知心理学・展望的記憶を中心に研究しています。
+宮下直です。認知心理学を専攻している大学院生です。
 </p>
 
 ## News
 
 <ul class="news-list">
-  <li><span class="news-date">2026.05</span>研究者ポートフォリオサイトを公開しました。</li>
+  <li><span class="news-date">2026/05/16</span>サイトを公開しました。</li>
 </ul>
 
 ## Research Interests
 
-- Experimental psychology
-- Cognitive psychology
-- Prospective memory
+- 展望的記憶 (prospective memory)
+- メタ記憶 (metamemory)
+- 注意 (attention)
 
 ## Contact
 
