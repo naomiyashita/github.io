@@ -41,8 +41,8 @@ permalink: /links/
 <ul class="profile-links">
   <li>
     <a href="https://github.com/naomiyashita">
-      <span class="profile-icon">GH</span>
-      <span>G</span>
+      <span class="profile-icon">G</span>
+      <span>GitHub</span>
     </a>
   </li>
 
