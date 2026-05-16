@@ -53,7 +53,3 @@ permalink: /links/
     </a>
   </li> 
 </ul>
-
-## Affiliation
-
-- 所属機関ページ: 準備中
