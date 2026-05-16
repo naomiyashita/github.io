@@ -7,7 +7,7 @@ permalink: /cv/
 
 # CV
 <nav class="page-toc" aria-label="CV contents">
-  <strong>Contents</strong>
+  <strong>Contents.</strong>
   <a href="#affiliation">所属</a>
   <a href="#membership">学会</a>
   <a href="#publications">原著論文</a>
