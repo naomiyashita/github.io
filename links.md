@@ -5,9 +5,9 @@ lang: ja
 permalink: /links/
 ---
 
-# Links
+# リンク
 
-## Academic Profiles
+## 研究者プロフィール・業績等
 
 <ul class="profile-links">
   <li>
@@ -36,7 +36,7 @@ permalink: /links/
   
 </ul>
 
-## Code / Projects
+## 成果物
 
 <ul class="profile-links">
   <li>
