@@ -5,7 +5,7 @@ lang: ja
 permalink: /links/
 ---
 
-# リンク
+# リンク集
 
 ## 研究者プロフィール・業績等
 
@@ -42,7 +42,7 @@ permalink: /links/
   <li>
     <a href="https://github.com/naomiyashita">
       <span class="profile-icon">GH</span>
-      <span>GitHub</span>
+      <span>G</span>
     </a>
   </li>
 
