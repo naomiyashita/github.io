@@ -1,0 +1,54 @@
+{% assign pub = include.pub %}
+{% assign lang = include.lang | default: "ja" %}
+
+{% if lang == "en" %}
+  {% assign authors = pub.authors_en | default: pub.authors %}
+  {% assign title = pub.title_en | default: pub.title %}
+  {% assign journal = pub.journal_en | default: pub.journal %}
+  {% assign citation_html_override = pub.citation_en_html_override %}
+  {% assign citation_plain_override = pub.citation_en_plain_override %}
+{% else %}
+  {% assign authors = pub.authors_ja | default: pub.authors %}
+  {% assign title = pub.title_ja | default: pub.title %}
+  {% assign journal = pub.journal_ja | default: pub.journal %}
+  {% assign citation_html_override = pub.citation_ja_html_override %}
+  {% assign citation_plain_override = pub.citation_ja_plain_override %}
+{% endif %}
+
+{% capture generated_html %}
+{{ authors }} ({{ pub.year }}). {{ title }}. <em>{{ journal }}{% if pub.volume %}, {{ pub.volume }}{% endif %}</em>{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.
+{% endcapture %}
+
+{% capture generated_plain %}
+{{ authors }} ({{ pub.year }}). {{ title }}. {{ journal }}{% if pub.volume %}, {{ pub.volume }}{% endif %}{% if pub.issue %}({{ pub.issue }}){% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %}.
+{% endcapture %}
+
+{% capture generated_html_with_doi %}
+{{ generated_html | strip }}{% if pub.doi %} {{ pub.doi }}{% endif %}
+{% endcapture %}
+
+{% capture generated_plain_with_doi %}
+{{ generated_plain | strip }}{% if pub.doi %} {{ pub.doi }}{% endif %}
+{% endcapture %}
+
+{% assign citation_html = citation_html_override | default: generated_html_with_doi %}
+{% assign citation_plain = citation_plain_override | default: generated_plain_with_doi %}
+
+<article id="{{ pub.id }}" class="publication-item">
+  <p class="publication-entry">
+    <span class="publication-citation">{{ generated_html | strip }}</span>
+
+    {% if pub.doi %}
+      <a class="publication-action" href="{{ pub.doi }}">[Link]</a>
+    {% endif %}
+
+    <button
+      class="publication-action citation-link"
+      type="button"
+      data-citation-html="{{ citation_html | strip | escape }}"
+      data-citation-text="{{ citation_plain | strip | escape }}"
+    >
+      [Citation]
+    </button>
+  </p>
+</article>
