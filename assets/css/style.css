@@ -168,3 +168,83 @@ li {
     margin-top: 40px;
   }
 }
+
+.publication-list {
+  margin-top: 20px;
+}
+
+.publication-item {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.publication-title {
+  margin-bottom: 4px;
+}
+
+.publication-meta {
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+
+.cite-button,
+.copy-citation-button {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font: inherit;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.cite-button:hover,
+.copy-citation-button:hover {
+  border-color: var(--text);
+}
+
+.cite-dialog {
+  width: min(640px, calc(100% - 32px));
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 28px;
+  color: var(--text);
+}
+
+.cite-dialog::backdrop {
+  background: rgb(0 0 0 / 0.35);
+}
+
+.cite-dialog h2 {
+  margin-top: 0;
+}
+
+.dialog-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.citation-style-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.citation-text {
+  width: 100%;
+  min-height: 140px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font: inherit;
+  line-height: 1.6;
+  resize: vertical;
+  margin-bottom: 16px;
+}
