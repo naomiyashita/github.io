@@ -20,8 +20,8 @@ permalink: /links/
 
   <li>
     <span class="profile-link-disabled">
-      <span class="profile-icon">R</span>
-      <span>Researchmap</span>
+      <span class="profile-icon">r</span>
+      <span>researchmap</span>
       <span class="profile-status">準備中</span>
     </span>
   </li>
