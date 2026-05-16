@@ -10,6 +10,38 @@ lang: ja
 宮下直です。認知心理学を専攻している大学院生です。
 </p>
 
+<ul class="profile-links">
+  <li>
+    <a href="https://orcid.org/0000-0000-0000-0000">
+      <span class="profile-icon">iD</span>
+      <span>ORCID</span>
+    </a>
+  </li>
+
+  <li>
+    <span class="profile-link-disabled">
+      <span class="profile-icon">R</span>
+      <span>Researchmap</span>
+      <span class="profile-status">準備中</span>
+    </span>
+  </li>
+
+  <li>
+    <a href="https://github.com/your-username">
+      <span class="profile-icon">GH</span>
+      <span>GitHub</span>
+    </a>
+  </li>
+
+  <li>
+    <span class="profile-link-disabled">
+      <span class="profile-icon">Q</span>
+      <span>Qiita</span>
+      <span class="profile-status">準備中</span>
+    </span>
+  </li>
+</ul>
+
 ## News
 
 <ul class="news-list">
