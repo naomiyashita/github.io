@@ -49,7 +49,9 @@
     <span class="publication-citation">{{ display_html | strip }}</span>
 
     {% if pub.doi %}
-      <a class="publication-action" href="{{ pub.doi }}">[Link]</a>
+      <a class="publication-action" href="{{ pub.doi }}" target="_blank" rel="noopener">
+        {% if lang == "en" %}[Link]{% else %}[リンク]{% endif %}
+      </a>
     {% endif %}
 
     <button
@@ -58,7 +60,7 @@
       data-citation-html="{{ citation_html | strip | escape }}"
       data-citation-text="{{ citation_plain | strip | escape }}"
     >
-      [Citation]
+      {% if lang == "en" %}[Cite this article]{% else %}[引用する]{% endif %}
     </button>
   </p>
 </article>
