@@ -32,13 +32,6 @@ body {
   margin-bottom: 56px;
 }
 
-.site-header .container {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  align-items: center;
-}
-
 .site-title {
   color: var(--text);
   text-decoration: none;
@@ -360,5 +353,59 @@ body.modal-open {
     width: calc(100% - 24px);
     max-height: 82vh;
     padding: 56px 20px 24px;
+  }
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.language-switcher label {
+  font-size: 0.85rem;
+}
+
+.language-switcher select {
+  font: inherit;
+  color: var(--text);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 28px 5px 8px;
+  cursor: pointer;
+}
+
+.language-switcher select:hover {
+  border-color: var(--text);
+}
+
+@media (max-width: 700px) {
+  .header-inner {
+    display: block;
+  }
+
+  .header-right {
+    display: block;
+  }
+
+  .language-switcher {
+    margin-top: 14px;
   }
 }
