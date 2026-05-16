@@ -7,11 +7,13 @@ permalink: /cv/
 
 # CV
 
-## Education
+## Affiliation
 
-- 2025–present　大学院名・研究科名
+- 2025–present　明治学院大学大学院　心理学研究科
 
-## Publications
+## Membership
+
+- 2025–present　日本認知心理学会
 
 ## Publications
 
@@ -26,9 +28,9 @@ permalink: /cv/
     <button class="dialog-close" type="submit" aria-label="Close">×</button>
   </form>
 
-  <h2>Cite this article</h2>
+  <h2>To cite this article:</h2>
 
-  <p class="citation-style-label">APA 7th</p>
+  <p class="citation-style-label">APA 7th Edition</p>
 
   <div id="citation-preview" class="citation-preview"></div>
 
@@ -39,13 +41,14 @@ permalink: /cv/
 
 ## Presentations
 
-準備中
+- 宮下 直・髙橋 稔・金城 光（2025）．活動―状態指向性，記憶の自己効力感および日常場面における展望的記憶のエラーの関連性　日本認知心理学会第23回大会．京都大学．2025年5月31日–6月1日
 
 ## Awards / Grants
 
-準備中
+- 2025年8月 白金心理学会研究奨励費獲得　白金心理学会．（採択題目：展望的記憶能力における個人差要因の検討――意図の想起過程，注意制御および意思決定の観点から――）
 
 ## Skills
 
 - R
 - PsychoPy
+- lab.js
