@@ -38,11 +38,10 @@ permalink: /links/
   </li>
 
   <li>
-    <span class="profile-link-disabled">
+    <a href="https://qiita.com/nao_qiitauser">
       <span class="profile-icon">Q</span>
       <span>Qiita</span>
-      <span class="profile-status">準備中</span>
-    </span>
+    </a>
   </li> 
 </ul>
 
