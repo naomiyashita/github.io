@@ -12,10 +12,10 @@ lang: ja
 
 <ul class="profile-links">
   <li>
-    <a href="https://orcid.org/0000-0000-0000-0000">
+    <span class="profile-link-disabled">
       <span class="profile-icon">iD</span>
       <span>ORCID</span>
-    </a>
+      <span class="profile-status">準備中</span>
   </li>
 
   <li>
@@ -27,7 +27,7 @@ lang: ja
   </li>
 
   <li>
-    <a href="https://github.com/your-username">
+    <a href="https://github.com/naomiyashita">
       <span class="profile-icon">GH</span>
       <span>GitHub</span>
     </a>
