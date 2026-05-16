@@ -9,15 +9,25 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
+    <div class="container header-inner">
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/cv/' | relative_url }}">CV</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-        <a href="{{ '/links/' | relative_url }}">Links</a>
-        <a href="{{ '/en/' | relative_url }}">English</a>
-      </nav>
+    
+      <div class="header-right">
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/cv/' | relative_url }}">CV</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+          <a href="{{ '/links/' | relative_url }}">Links</a>
+        </nav>
+    
+        <div class="language-switcher">
+          <label for="language-select">Language</label>
+          <select id="language-select" aria-label="Language selector">
+            <option value="{{ '/' | relative_url }}" {% if page.lang != "en" %}selected{% endif %}>日本語</option>
+            <option value="{{ '/en/' | relative_url }}" {% if page.lang == "en" %}selected{% endif %}>English</option>
+          </select>
+        </div>
+      </div>
     </div>
   </header>
 
