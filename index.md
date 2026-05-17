@@ -7,7 +7,7 @@ lang: ja
 # Welcome!
 
 <p class="lead">
-宮下直です。認知心理学を専攻している大学院生です。
+宮下直（みやした なお）です。認知心理学を専攻している大学院生です。
 </p>
 
 <ul class="profile-links">
