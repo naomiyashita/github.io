@@ -23,7 +23,7 @@ lang: ja
         src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
         style="width: 1em; margin-inline-start: 0.5em"
         alt="ORCID iD icon"/>
-      0009-0002-3201-2279
+      ORCID (0009-0002-3201-2279)
     </a>
   </li>
 
