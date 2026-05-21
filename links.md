@@ -11,11 +11,10 @@ permalink: /links/
 
 <ul class="profile-links">
   <li>
-    <span class="profile-link-disabled">
+    <a href="https://orcid.org/0009-0002-3201-2279">
       <span class="profile-icon">iD</span>
-      <span>ORCID</span>
-      <span class="profile-status">準備中</span>
-    </span>
+      <span>ORCID (0009-0002-3201-2279)</span>
+    </a>
   </li>
 
   <li>
