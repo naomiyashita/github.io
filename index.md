@@ -28,11 +28,10 @@ lang: ja
   </li>
 
   <li>
-    <span class="profile-link-disabled">
-      <span class="profile-icon">r</span>
-      <span>researchmap</span>
-      <span class="profile-status">準備中</span>
-    </span>
+    <a href="https://researchmap.jp/naomiyashita">
+      <span class="profile-icon">rm</span>
+      <span>researchmap (R000108552)</span>
+    </a>
   </li>
 
   <li>
